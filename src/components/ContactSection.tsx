@@ -207,6 +207,16 @@ export const ContactSection = () => {
                 ))}
               </div>
             </div>
+            
+            {/* Badge LinkedIn */}
+            <div className="mt-6">
+              <h4 className="text-sm font-medium text-muted-foreground mb-3">Connect with me on LinkedIn</h4>
+              <div className="bg-white dark:bg-card p-4 rounded-lg border border-border">
+                <div className="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="emi-tanaka-58b939386" data-version="v1">
+                  <a className="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/emi-tanaka-58b939386?trk=profile-badge">Emi Tanaka</a>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Contact Form */}
